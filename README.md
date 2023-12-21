@@ -10,3 +10,15 @@ node --experimental-network-imports
 Tech Stack: 
 - Astro as shell application
 - SolidJS as MFE
+- Vite as build tool
+- Node 20
+
+# Usage
+
+## Micro-frontends
+- Build the MFE with `npm run build`
+- Start the MFE with `npm run preview`
+
+## Shell application
+- Build the shell with `npm run build`
+- Start the shell with `npm run preview`
